@@ -16,7 +16,9 @@ public class PAMSApp {
                 new Patient(2, "Ana", "Smith", null, "amsith@te.edu", null, LocalDate.of(1948, 12, 5)),
                 new Patient(3, "Marcus", "Garvey", "(123) 292-0018", null, "4 East Ave", LocalDate.of(2001, 9, 18)),
                 new Patient(4, "Jeff", "Goldbloom", "(999) 165-1192", "jgold@es.co.za", null, LocalDate.of(1995, 2, 28)),
-                new Patient(5, "Mary", "Washington", null, null, "30 W Burlington", LocalDate.of(1932, 5, 31))
+                new Patient(5, "Mary", "Washington", null, null, "30 W Burlington", LocalDate.of(1932, 5, 31)),
+                new Patient(6, "John", "Smith", null, null, "1000 N Str", LocalDate.of(1999, 5, 15)),
+
         };
 
         Arrays.sort(patients, Comparator.comparingInt(Patient::getAge).reversed());
