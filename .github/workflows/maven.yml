@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Patient Appointment Management System CI with Maven update
+name: Patient Appointment Management System CI with Maven update permission
 
 on:
   push:
